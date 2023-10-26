@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@300&family=Merriweather&family=Ubuntu&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    background-color: lightslategray;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-container {
+    margin-top: 20px;
+}
+
+#anime, #character{
+    font-family: 'Ubuntu', 'Inter,', sans-serif;
+    background-color: beige;
+}
+
+#quote {
+    font-family: 'Cinzel', 'Merriweather', serif;
+}
+
+button {
+    font-family: 'Ubuntu', 'Inter,', sans-serif;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
